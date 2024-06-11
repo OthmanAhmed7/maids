@@ -6,7 +6,7 @@ import Hero from "@/components/Hero";
 import Numbers from "@/components/Numbers";
 import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
-import Last from "@/components/last";
+import Last from "@/components/Last";
 
 export default function Home() {
   return (
