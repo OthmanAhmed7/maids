@@ -11,7 +11,7 @@ import Last from "@/components/Last";
 export default function Home() {
   return (
     <main className="bg-[#f8fbfe]">
-      <div className="gradient rounded-bl-[10rem]">
+      <div className="gradient rounded-bl-[10rem] w-full overflow-hidden">
         <Header />
         <Hero />
         <Numbers />

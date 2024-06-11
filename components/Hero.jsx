@@ -4,9 +4,9 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <section>
-      <div className="max-w-[1200px] mx-auto flex items-center justify-between pb-[3rem] pt-[2rem]">
+      <div className="max-w-[1200px] mx-auto flex items-center justify-between pb-[3rem] pt-[2rem] flex-col md:flex-row px-[2rem] xl:px-0">
         <div>
-          <h1 className="text-[4rem] max-w-[650px] font-[700] text-main-font leading-[4.5rem] mb-[1.5rem]">
+          <h1 className="text-[3.4rem] md:text-[3rem] md:leading-[3.5rem] lg:text-[4rem] max-w-[650px] font-[700] text-main-font lg:leading-[4.5rem] mb-[1.5rem]">
             Clean Your Home the <span className="highlight">Right Way</span>.
           </h1>
 
@@ -38,13 +38,13 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="relative">
+        <div className="relative mt-[4rem] md:mt-0">
           <Image
             src="/img/hand.png"
             width={900}
             height={900}
             alt="hand image"
-            className="rotate-[30deg] relative z-[100]"
+            className="rotate-[30deg] relative z-[10]"
           />
 
           <Image

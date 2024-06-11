@@ -13,18 +13,18 @@ const Accordion = (props) => {
 
   return (
     <div>
-      <div className="w-[800px]">
+      <div className="max-w-[300px] md:max-w-[500px] lg:max-w-[800px] xl:px-0">
         <div
           className="flex items-center justify-between my-[1rem] cursor-pointer"
           onClick={toggle}
         >
-          <h3 className="text-[1.4rem] font-[600] text-main-font">
+          <h3 className="text-[1.2rem] md:text-[1.3rem] lg:text-[1.5rem] font-[600] text-main-font">
             {props.question}
           </h3>
           {toggleFaq ? (
-            <HiMinusCircle className="w-[30px] h-[30px] text-main-font" />
+            <HiMinusCircle className="min-w-[30px] h-[30px] text-main-font" />
           ) : (
-            <FaCirclePlus className="w-[24px] h-[24px] text-main-font" />
+            <FaCirclePlus className="min-w-[24px] h-[24px] text-main-font" />
           )}
         </div>
         {toggleFaq && (
