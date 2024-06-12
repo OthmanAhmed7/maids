@@ -14,10 +14,18 @@ const Header = () => {
     setToggle(!toggle);
     setOverlay(!overlay);
   };
+
+  // const handelClose = () => {
+  //   setToggle(!to)
+  // }
+
   return (
     <header id="home">
       {overlay && (
-        <div className="w-full h-[100vh] bg-black opacity-[20%] fixed z-[20] top-0 right-0"></div>
+        <div
+          onClick={handelClick}
+          className="w-full h-[100vh] bg-black opacity-[20%] fixed z-[20] top-0 right-0"
+        ></div>
       )}
       <div className="max-w-[1200px] mx-auto flex items-center justify-between py-[1.5rem] px-[2rem] xl:px-0">
         <div>
