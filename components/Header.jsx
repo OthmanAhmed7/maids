@@ -66,7 +66,7 @@ const Header = () => {
       </div>
 
       {toggle && (
-        <div className="fixed right-0 top-0 pt-[6rem] pr-[5rem] pl-[1rem] shadow-xl bg-gradient h-[100vh] w-[50%] z-[80]">
+        <div className="fixed right-0 top-0 pt-[6rem] pr-[5rem] pl-[1rem] shadow-xl bg-white h-[100vh] w-[50%] z-[80]">
           <nav>
             <ul className=" text-[1.5rem] font-[600] text-main-font">
               <li className="mb-[1rem]">
