@@ -13,7 +13,11 @@ const Accordion = (props) => {
 
   return (
     <div>
-      <div className="max-w-[300px] md:max-w-[500px] lg:max-w-[800px] xl:px-0">
+      <div
+        data-aos="fade-right"
+        data-aos-duration="700"
+        className="max-w-[300px] md:max-w-[500px] lg:max-w-[800px] xl:px-0"
+      >
         <div
           className="flex items-center justify-between my-[1rem] cursor-pointer"
           onClick={toggle}

@@ -14,6 +14,7 @@ const Faqs = () => {
             {paragraph.map((index) => (
               <Accordion
                 key={index}
+                duration={index}
                 answer={index.answer}
                 question={index.question}
                 toggle_faq={index.toggle_faq}

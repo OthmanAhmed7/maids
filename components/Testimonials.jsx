@@ -10,7 +10,7 @@ const Testimonials = () => {
           Testimonials
         </h1>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-[3rem] px-[2rem] xl:px-0">
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center hover:shadow-lg p-[1rem] rounded-[.8rem] transition ease-in-out duration-500 hover:scale-110">
             <Image
               src="/img/1.jpg"
               width={50}
@@ -39,7 +39,7 @@ const Testimonials = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center hover:shadow-lg p-[1rem] rounded-[.8rem] transition ease-in-out duration-500 hover:scale-110">
             <Image
               src="/img/2.jpeg"
               width={50}
@@ -49,7 +49,7 @@ const Testimonials = () => {
             />
 
             <h1 className="text-[1.3rem] font-[600] text-main-font mt-[.6rem]">
-              Muhammed Sayed
+              Wael El-Komy
             </h1>
 
             <div className="flex gap-1 text-yellow-500">
@@ -68,7 +68,7 @@ const Testimonials = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center hover:shadow-lg p-[1rem] rounded-[.8rem] transition ease-in-out duration-500 hover:scale-110">
             <Image
               src="/img/3.jpg"
               width={50}
@@ -78,7 +78,7 @@ const Testimonials = () => {
             />
 
             <h1 className="text-[1.3rem] font-[600] text-main-font mt-[.6rem]">
-              Muhammed Sayed
+              Maher Akram
             </h1>
 
             <div className="flex gap-1 text-yellow-500">

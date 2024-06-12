@@ -10,7 +10,7 @@ const Services = () => {
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-between gap-[3rem] mt-[4rem]">
-          <div className="flex flex-col items-center max-w-[265px]">
+          <div className="flex flex-col items-center max-w-[265px] hover:shadow-lg p-[1rem] rounded-[.8rem] transition ease-in-out duration-500 hover:scale-110">
             <Image src="/img/dishes.svg" width={80} height={80} alt="dishes" />
 
             <h1 className="mt-[1rem] text-[1.5rem] font-[600] text-main-font">
@@ -25,7 +25,7 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-center max-w-[265px]">
+          <div className="flex flex-col items-center max-w-[265px] hover:shadow-lg p-[1rem] rounded-[.8rem] transition ease-in-out duration-500 hover:scale-110">
             <Image src="/img/vacuum.svg" width={80} height={80} alt="vacuum" />
 
             <h1 className="mt-[1rem] text-[1.5rem] font-[600] text-main-font">
@@ -40,7 +40,7 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-center max-w-[265px]">
+          <div className="flex flex-col items-center max-w-[265px] hover:shadow-lg p-[1rem] rounded-[.8rem] transition ease-in-out duration-500 hover:scale-110">
             <Image
               src="/img/washing.svg"
               width={80}
@@ -60,7 +60,7 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-center max-w-[265px]">
+          <div className="flex flex-col items-center max-w-[265px] hover:shadow-lg p-[1rem] rounded-[.8rem] transition ease-in-out duration-500 hover:scale-110">
             <Image
               src="/img/cooking.svg"
               width={80}
