@@ -15,10 +15,6 @@ const Header = () => {
     setOverlay(!overlay);
   };
 
-  // const handelClose = () => {
-  //   setToggle(!to)
-  // }
-
   return (
     <header id="home">
       {overlay && (
