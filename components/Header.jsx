@@ -20,7 +20,7 @@ const Header = () => {
       {overlay && (
         <div
           onClick={handelClick}
-          className="w-full h-[100vh] bg-black opacity-[20%] fixed z-[20] top-0 right-0"
+          className="w-full h-[100vh] bg-black opacity-[50%] fixed z-[20] top-0 right-0"
         ></div>
       )}
       <div className="max-w-[1200px] mx-auto flex items-center justify-between py-[1.5rem] px-[2rem] xl:px-0">
